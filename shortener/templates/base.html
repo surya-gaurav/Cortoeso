@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Cortoeso | Shorten your url</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <link href="http://getbootstrap.com/examples/cover/cover.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <style type="text/css">
+      .head{
+        margin-top: 220px;
+      }
+      html{height: 100%}
+      body{
+        font-family: 'Montserrat', sans-serif;
+        background-size: cover;
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background: -moz-linear-gradient(45deg, rgba(115,163,191,1) 0%, rgba(0,97,97,1) 100%);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(115,163,191,1)), color-stop(100%, rgba(0,97,97,1)));
+        background: -webkit-linear-gradient(45deg, rgba(115,163,191,1) 0%, rgba(0,97,97,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(115,163,191,1) 0%, rgba(0,97,97,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(115,163,191,1) 0%, rgba(0,97,97,1) 100%);
+        background: linear-gradient(45deg, rgba(115,163,191,1) 0%, rgba(0,97,97,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#006161', endColorstr='#73A3BF',GradientType=1 );
+      }
+      .btn-primary{
+        padding: 5px 8px;
+        font-size: 14px;
+      }
+      a{
+        color: #00E6E6;
+      }
+      a:hover{
+        color: #00E6E6;
+      }
+    </style>
+</head>
+
+<body>
+    <center>
+      <div class="container head">
+        <h4 style="color: white; margin-bottom: 25px;"><span style="color: #00E6E6; font-size: 36px;">Cortoeso</span> - Shorten your URL</h4>
+        {%block content%}
+        {%endblock content%}
+      </div>
+      <footer style="margin-top: 250px; color: white;">Inspired by <a target="_blank" href="http://kirr.co">kirr.co</a></footer>
+    </center>
+</body>
+</html>

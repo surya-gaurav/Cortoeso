@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+			<h6 style="color: white;">Already exists!</h6>
+			<a target="_blank" href="{{request.build_absolute_uri}}{{data.short_url}}">{{request.build_absolute_uri}}{{data.short_url}}</a><br>
+			<a class='btn btn-default'  href='/'>+ New</a>
+{% endblock content %}
